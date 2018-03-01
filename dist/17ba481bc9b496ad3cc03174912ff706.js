@@ -92,7 +92,7 @@ const navClick = function () {
 
 console.log("Loaded")
 
-},{}],13:[function(require,module,exports) {
+},{}],7:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -112,7 +112,7 @@ module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
-  var ws = new WebSocket('ws://' + hostname + ':' + '35073' + '/');
+  var ws = new WebSocket('ws://' + hostname + ':' + '39025' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -213,5 +213,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[13,4])
+},{}]},{},[7,4])
 //# sourceMappingURL=/dist/17ba481bc9b496ad3cc03174912ff706.map
