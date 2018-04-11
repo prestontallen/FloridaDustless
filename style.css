@@ -66,6 +66,16 @@ html, body {
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+.top-bar ul li:hover {
+    color: #FFFAFF;
+    background: rgba(0, 58, 99, 0.8);
 }
 
 .top-bar ul li a {
@@ -73,13 +83,9 @@ html, body {
     color: inherit;
 }
 
-.active {
-    color: #FFFAFF;
-    background: rgba(0, 58, 99, 0.8);
-}
-
 .logo {
-    height: 100px;
+    height: 125px;
+    padding: 10px;
 }
 
 .three-panel {
@@ -106,6 +112,11 @@ html, body {
 .panel3 ul li {
     padding: 10px;
     font-size: 20px;
+}
+
+.panel3 img {
+    width: 200px;
+    height: 100px;
 }
 
 h3 {
