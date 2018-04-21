@@ -92,15 +92,17 @@ html, body {
     width: 100%;
     background: #FFFAFF;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .panel3 {
     padding: 20px;
-    width: 30%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .panel3 ul {
@@ -117,6 +119,11 @@ html, body {
 .panel3 img {
     width: 200px;
     height: 100px;
+}
+
+#lastPanel {
+    color: #FFFAFF;
+    background: #3E92CC;
 }
 
 h3 {
